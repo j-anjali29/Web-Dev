@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="black">
+        <caption>Food Menu</caption>
+        <tr>
+            <th>Item</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>Frooti</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>samosa</td>
+            <td>12</td>
+        </tr>
+        <tr>
+            <td>chips</td>
+            <td>20</td>
+        </tr>
+    </table>
+
+
+    <table border="black">
+        <caption>Food Menu</caption>
+        <thead>
+            <tr>
+                <th rowspan="2">Item</th>
+                <th colspan="2">Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Frooti</td>
+                <td>10</td>
+                <td>0.14</td>
+            </tr>
+            <tr>
+                <td>samosa</td>
+                <td>12</td>
+                <td>0.11</td>
+            </tr>
+            <tr>
+                <td>chips</td>
+                <td>20</td>
+                <td>0.28</td>
+            </tr>
+
+        </tbody>
+    </table>
+
+
+    <table border="black">
+        <caption>A test table with merged cells</caption>
+
+        <tr>
+            <td rowspan="2"></td>
+            <td colspan="2">Average</td>
+            <td rowspan="2">Red eyes</td>
+        </tr>
+        <tr>
+        <td>height</td>
+        <td>weight</td>
+        </tr>
+
+        <tr>
+            <td>Males</td>
+            <td>1.9</td>
+            <td>0.003</td>
+            <td>40 %</td>
+        </tr>
+
+        <tr>
+            <td>Female</td>
+            <td>1.7</td>
+            <td>0.002</td>
+            <td> 43%</td>
+        </tr>
+
+    </table>
+
+    <form action="/action">
+        username
+        <input type="text" placeholder="Enter Name">
+        <br>
+        password
+        <input type="password">
+        <br>
+        number
+        <input type = "number">
+        <br>
+        Time
+        <input type = "time">
+        <br>
+        color
+        <input type ="color">
+    </form>
+    <br>
+
+    <!-- <form action="">
+        <label >
+            username
+            <input type="text"placeholder="Enter username">
+        </label>
+    </form> -->
+
+    <form action="/action">
+        <label for="username">username: </label>
+        <input type="text" placeholder="Enter username"id="username">
+        <button>Submit</button>
+    </form>
+    <br>
+
+    <form action="https://www.google.com/search?q=apple">
+        <input type =  "text" name = "q" placeholder="search in Google">
+        <button>search</button>
+    </form>
+
+    <br>
+
+
+    <form action="/actiom">
+        <input type="checkbox" name = "age" id = "age">
+        <!-- <input type="checkbox" name = "age" id = "age" checked> -->
+        <label for="age">I am 18+</label>
+        <button>submit</button>
+        <br>
+        <div>
+            <input type="radio" name = "fruit" id = "apple" value="apple">
+            <label for="apple">apple</label>
+            <input type="radio" name = "fruit" id = "mango" value="mango">
+            <label for="mango">mango</label>
+            <input type="radio" name = "fruit" id = "banana" value="banana">
+            <label for="banana">banana</label>
+        </div>
+
+        <br>
+
+        <div>
+            choose your subject:
+            <input type="checkbox" id = "maths" name="sub" value =  "maths"/>
+            <label for="maths">maths</label>
+            <input type="checkbox" id = "science" name="sub" value =  "sci"/>
+            <label for="maths">science</label>
+            <input type="checkbox" id = "English" name="sub" value =  "eng"/>
+            <label for="maths">English</label>
+        </div>
+
+        <div>
+            choose your profession
+            <select name  = "profession" id = "profession">
+            <option value="student">student</option>
+            <option value="Developer">Developer</option>
+            </select>
+        </div>
+
+        <label for="volume">volume</label>
+        <input type="range" name="vol" id="vol" min = "0" max = "100">
+        <button>submit</button>
+
+        <label for="feedback">please provide your valuable feedback</label>
+        <textarea name="feedback" id="feedback"></textarea>
+
+       </form>
+
+
+</body>
+</html>
